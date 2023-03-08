@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/itsksaurabh/udemy/grpc/unary/greet/greetpb"
+	"unary/greetpb"
+
 	"google.golang.org/grpc"
 )
 
@@ -20,8 +21,8 @@ func main() {
 	// create request
 	req := greetpb.GreetRequest{
 		Greeting: &greetpb.Greeting{
-			FirstName: "Kumar",
-			LastName:  "Saurabh",
+			FirstName: "deingena",
+			LastName:  "nuremberg",
 		},
 	}
 
